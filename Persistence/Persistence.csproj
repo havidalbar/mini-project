@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.4.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+      <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Redis\" />
+      <None Remove="Authentication\" />
+      <None Remove="EntitiesConfiguration\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Redis\" />
+      <Folder Include="Authentication\" />
+      <Folder Include="EntitiesConfiguration\" />
+    </ItemGroup>
+</Project>

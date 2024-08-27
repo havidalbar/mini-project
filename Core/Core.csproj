@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.4.0" />
+      <PackageReference Include="CoreEx.AutoMapper" Version="3.24.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Features\Queries\" />
+      <Folder Include="Features\Queries\Authentications\" />
+      <Folder Include="Features\Queries\PostUsers\" />
+      <Folder Include="Features\Queries\Authentications\RefreshToken\" />
+      <Folder Include="Features\Queries\Mappers\" />
+      <Folder Include="Features\Queries\PostRoles\" />
+      <Folder Include="Features\Queries\GetListUsers\" />
+      <Folder Include="Features\Queries\PostTodos\" />
+      <Folder Include="Features\Queries\PostListTodos\" />
+      <Folder Include="Features\Queries\GetListTodos\" />
+      <Folder Include="Features\Queries\DeleteTodos\" />
+      <Folder Include="Features\Queries\PutTodos\" />
+      <Folder Include="Features\Queries\PostTodoDetails\" />
+      <Folder Include="Features\Queries\PostListTodoDetails\" />
+      <Folder Include="Features\Queries\GetListTodoDetails\" />
+      <Folder Include="Features\Queries\PutTodoDetails\" />
+      <Folder Include="Features\Queries\DeleteTodoDetails\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Features\Queries\Authentications\" />
+      <None Remove="Features\Queries\PostUsers\" />
+      <None Remove="Features\Queries\Authentications\RefreshToken\" />
+      <None Remove="Features\Queries\Mappers\" />
+      <None Remove="Features\Queries\PostRoles\" />
+      <None Remove="Features\Queries\GetListUsers\" />
+      <None Remove="Features\Queries\PostTodos\" />
+      <None Remove="Features\Queries\PostListTodos\" />
+      <None Remove="Features\Queries\GetListTodos\" />
+      <None Remove="Features\Queries\DeleteTodos\" />
+      <None Remove="Features\Queries\PutTodos\" />
+      <None Remove="Features\Queries\PostTodoDetails\" />
+      <None Remove="Features\Queries\PostListTodoDetails\" />
+      <None Remove="Features\Queries\GetListTodoDetails\" />
+      <None Remove="Features\Queries\PutTodoDetails\" />
+      <None Remove="Features\Queries\DeleteTodoDetails\" />
+    </ItemGroup>
+</Project>

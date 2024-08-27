@@ -1,0 +1,115 @@
+﻿<Properties StartupConfiguration="{0F68A827-FF72-4024-BB96-D68535C2631F}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Persistence/Models/User.cs">
+    <Files>
+      <File FileName="Persistence/PersistenceRegistration.cs" Line="32" Column="20" />
+      <File FileName="Application/Program.cs" Line="48" Column="1" />
+      <File FileName="Application/Controllers/IndexController.cs" Line="1" Column="1" />
+      <File FileName="Persistence/Repositories/IGenericRepository.cs" Line="5" Column="13" />
+      <File FileName="Persistence/Repositories/GenericRepository.cs" Line="46" Column="22" />
+      <File FileName="Persistence/Repositories/TableSpecificationRepository.cs" Line="8" Column="53" />
+      <File FileName="Persistence/Repositories/ITableSpecificationRepository.cs" Line="5" Column="68" />
+      <File FileName="Persistence/DatabaseContext/TableContext.cs" Line="25" Column="50" />
+      <File FileName="Core/Features/Queries/GetTableSpecifications/GetTableSpecificationsResponse.cs" Line="8" Column="5" />
+      <File FileName="Application/Controllers/BaseController.cs" Line="7" Column="14" />
+      <File FileName="Core/Features/Queries/GetListTableSpesifications/GetTableSpecificationsQuery.cs" Line="5" Column="64" />
+      <File FileName="Core/Features/Queries/PutTableSpecifications/PutTableSpecificationsQuery.cs" Line="9" Column="28" />
+      <File FileName="Core/Features/Queries/PutTableSpecifications/PutTableSpecificationsHandler.cs" Line="24" Column="59" />
+      <File FileName="Core/Features/Queries/DeleteTableSpecifications/DeleteTableSpecificationsHandler.cs" Line="18" Column="85" />
+      <File FileName="Core/Features/Queries/DeleteTableSpecifications/DeleteTableSpecificationsResponse.cs" Line="9" Column="1" />
+      <File FileName="Core/Features/Queries/DeleteTableSpecifications/DeleteTableSpecificationsQuery.cs" Line="8" Column="2" />
+      <File FileName="Core/Features/Queries/PostBatchSpecifications/PostTableSpecificationsQuery.cs" Line="20" Column="1" />
+      <File FileName="Core/Features/Queries/PostListSpecifications/PostListTableSpecificationsHandler.cs" Line="15" Column="133" />
+      <File FileName="Persistence/Redis/RedisCacheService.cs" Line="43" Column="69" />
+      <File FileName="Persistence/Redis/ICacheService.cs" Line="6" Column="6" />
+      <File FileName="Persistence/Redis/RedisServer.cs" Line="18" Column="87" />
+      <File FileName="Core/Authentication/Models/User.cs" Line="2" Column="37" />
+      <File FileName="Core/Features/Queries/Auth/PostLoginQuery.cs" Line="7" Column="30" />
+      <File FileName="Core/Features/Queries/Auth/PostLoginResponse.cs" Line="12" Column="1" />
+      <File FileName="Core/Features/Queries/Auth/PostRegistrationQuery.cs" Line="9" Column="82" />
+      <File FileName="Core/Features/Queries/Auth/AuthService.cs" Line="43" Column="37" />
+      <File FileName="Core/ApplicationServiceRegistration.cs" Line="11" Column="65" />
+      <File FileName="Persistence/Models/EntityBase.cs" Line="12" Column="43" />
+      <File FileName="Persistence/Repositories/IUserRepository.cs" Line="11" Column="26" />
+      <File FileName="Persistence/Repositories/UserRepository.cs" Line="35" Column="10" />
+      <File FileName="Persistence/Repositories/RoleRepository.cs" Line="19" Column="10" />
+      <File FileName="Persistence/Repositories/IRoleRepository.cs" Line="8" Column="26" />
+      <File FileName="Application/Authentication/BuilderExtension.cs" Line="17" Column="35" />
+      <File FileName="Application/Authentication/Configuration.cs" Line="13" Column="6" />
+      <File FileName="Application/Authentication/CorsPolicyExtensions.cs" Line="16" Column="6" />
+      <File FileName="Application/Authentication/JwtExtension.cs" Line="32" Column="71" />
+      <File FileName="Persistence/Authentication/IPasswordHashingService.cs" Line="11" Column="1" />
+      <File FileName="Persistence/Authentication/PasswordHashingService.cs" Line="16" Column="41" />
+      <File FileName="Core/Features/Queries/PostUsers/PostUsersHandler.cs" Line="12" Column="9" />
+      <File FileName="Core/Features/Queries/PostUsers/PostUsersQuery.cs" Line="6" Column="1" />
+      <File FileName="Core/Features/Queries/Authentications/RefreshToken/RefreshTokenHandler.cs" Line="49" Column="34" />
+      <File FileName="Core/Features/Queries/Authentications/RefreshToken/RefreshTokenQuery.cs" Line="7" Column="32" />
+      <File FileName="Core/Features/Queries/PostUsers/Response.cs" Line="13" Column="10" />
+      <File FileName="Application/Controllers/AuthController.cs" Line="5" Column="42" />
+      <File FileName="Persistence/Models/Role.cs" Line="10" Column="55" />
+      <File FileName="Core/Features/Queries/PostRoles/PostRolesQuery.cs" Line="12" Column="1" />
+      <File FileName="Core/Features/Queries/PostRoles/PostRolesResponse.cs" Line="4" Column="32" />
+      <File FileName="Persistence/EntitiesConfiguration/RoleConfiguration.cs" Line="8" Column="35" />
+      <File FileName="Persistence/EntitiesConfiguration/UserConfiguration.cs" Line="8" Column="18" />
+      <File FileName="Core/Features/Queries/GetListUsers/GetListQuery.cs" Line="6" Column="32" />
+      <File FileName="Core/Features/Queries/Mappers/UserMapper.cs" Line="1" Column="1" />
+      <File FileName="Core/Features/Queries/GetListUsers/GetListUsersHandler.cs" Line="21" Column="58" />
+      <File FileName="Core/Features/Queries/PostTableSpesifications/PostTableSpesificationsResponse.cs" Line="6" Column="1" NotebookId="1" />
+      <File FileName="Persistence/Models/TableSpecification.cs" Line="16" Column="19" NotebookId="1" />
+      <File FileName="Core/Features/Queries/GetTableSpecifications/GetTableSpecificationsHandler.cs" Line="6" Column="13" NotebookId="1" />
+      <File FileName="Core/Features/Queries/GetTableSpecifications/GetTableSpecificationsQuery.cs" Line="6" Column="45" NotebookId="1" />
+      <File FileName="Core/Features/Queries/Authentications/PostLoginResponse.cs" Line="6" Column="32" NotebookId="1" />
+      <File FileName="Core/Features/Queries/Authentications/RoleLoginResponse.cs" Line="9" Column="10" NotebookId="1" />
+      <File FileName="Core/Features/Queries/Authentications/PostLoginQuery.cs" Line="7" Column="29" NotebookId="1" />
+      <File FileName="Core/Features/Queries/Authentications/PostLoginHandler.cs" Line="17" Column="34" NotebookId="1" />
+      <File FileName="Application/Controllers/TableController.cs" Line="20" Column="16" NotebookId="1" />
+      <File FileName="Application/appsettings.json" Line="13" Column="4" NotebookId="1" />
+      <File FileName="Persistence/Models/User.cs" Line="38" Column="10" NotebookId="1" />
+      <File FileName="Core/Features/Queries/PostRoles/PostRolesHandler.cs" Line="24" Column="14" NotebookId="1" />
+      <File FileName="Core/Features/Queries/PostTableSpesifications/PostTableSpesificationsHandler.cs" Line="38" Column="5" NotebookId="1" />
+      <File FileName="Core/Features/Queries/GetListTableSpesifications/GetTableSpecificationsHandler.cs" Line="10" Column="97" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LearnWebApi" expanded="True">
+            <Node name="Application" expanded="True">
+              <Node name="Authentication" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="Features" expanded="True">
+                <Node name="Queries" expanded="True">
+                  <Node name="Authentications" expanded="True">
+                    <Node name="RefreshToken" expanded="True" />
+                  </Node>
+                  <Node name="GetListTableSpecifications" expanded="True" />
+                  <Node name="GetListUsers" expanded="True" />
+                  <Node name="GetTableSpecifications" expanded="True" />
+                  <Node name="Mappers" expanded="True" />
+                  <Node name="PostRoles" expanded="True" />
+                  <Node name="PostTableSpecifications" expanded="True" />
+                  <Node name="PostUsers" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Persistence" expanded="True">
+              <Node name="Authentication" expanded="True" />
+              <Node name="DatabaseContext" expanded="True" />
+              <Node name="EntitiesConfiguration" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Redis" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Application PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>
