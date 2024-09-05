@@ -22,15 +22,15 @@ namespace Application.Controllers
         }
 
         [HttpGet("todo")]
-        [Authorize(Roles = "USER,ADMIN")]
-        public async Task<IActionResult> ListTodos(GetListTodosQuery request)
+        //[Authorize(Roles = "USER,ADMIN")]
+        public async Task<IActionResult> ListTodos([FromQuery] GetListTodosQuery request)
         {
             var response = await _mediator.Send(request);
             return Ok(response);
         }
 
         [HttpPost("todo")]
-        [Authorize(Roles = "ADMIN")]
+        //[Authorize(Roles = "ADMIN")]
         public async Task<PostTodosResponse> PostTodo(PostTodosQuery request)
         {
             var response = await _mediator.Send(request);
@@ -38,7 +38,7 @@ namespace Application.Controllers
         }
 
         [HttpPost("todo/all")]
-        [Authorize(Roles = "ADMIN")]
+        // [Authorize(Roles = "ADMIN")]
         public async Task<IActionResult> PostListTodo(PostListTodosQuery request)
         {
             var response = await _mediator.Send(request);
@@ -46,7 +46,7 @@ namespace Application.Controllers
         }
 
         [HttpPut("todo")]
-        [Authorize(Roles = "ADMIN")]
+        // [Authorize(Roles = "ADMIN")]
         public async Task<IActionResult> PutTodo(PutTodosQuery request)
         {
             var response = await _mediator.Send(request);
@@ -54,8 +54,8 @@ namespace Application.Controllers
         }
 
         [HttpDelete("todo")]
-        [Authorize(Roles = "ADMIN")]
-        public async Task<IActionResult> DeleteTodo(DeleteTodosQuery request)
+        //[Authorize(Roles = "ADMIN")]
+        public async Task<IActionResult> DeleteTodo([FromQuery] DeleteTodosQuery request)
         {
             var response = await _mediator.Send(request);
             return Ok(response);
